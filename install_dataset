@@ -1,0 +1,8 @@
+#! /bin/python3
+import kagglehub
+import os
+path = kagglehub.dataset_download("masoudnickparvar/brain-tumor-mri-dataset")
+os.system(f'mv {path}/* ./ ; rm {path}')
+HOME=os.environ.get('HOME')
+os.system(f'echo \'#Exported by JPBrain:\nexport PR_LOCAL=\'JPBrain\'\'>>{HOME}/.bashrc')
+os.system('export PR_LOCAL=\'JPBrain\'')

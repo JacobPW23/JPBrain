@@ -7,7 +7,6 @@ It is a project of ML model and simple application to brain tumor classification
 1. Python libraries
 ```
 pip install tensorflow kagglehub numpy pandas matplotlib scikit-learn seaborn opencv-python streamlit
-
 ```
 2. Jupyter  Nootbook
 
@@ -16,7 +15,6 @@ pip install tensorflow kagglehub numpy pandas matplotlib scikit-learn seaborn op
 Instalation prepared for linux system with python
 ```
 ./install_dataset
-
 ```
 ### Directories in project:
 - deployment - streamlit app files

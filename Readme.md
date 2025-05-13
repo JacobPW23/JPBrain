@@ -3,7 +3,7 @@
 It is a project of ML model and simple application to brain tumor classification based on MRI/CT scan.
 
 
-### Prerequsites:
+### Prerequisites:
 1. Python libraries
 ```
 pip install tensorflow kagglehub numpy pandas matplotlib scikit-learn seaborn opencv-python streamlit

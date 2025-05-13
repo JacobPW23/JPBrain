@@ -10,9 +10,9 @@ pip install tensorflow kagglehub numpy pandas matplotlib scikit-learn seaborn op
 ```
 2. Jupyter  Nootbook
 
-### Local dataset instalation:
+### Local dataset installation:
 
-Instalation prepared for linux system with python
+Installation prepared for linux system with python
 ```
 ./install_dataset
 ```

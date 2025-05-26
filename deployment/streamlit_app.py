@@ -28,11 +28,12 @@ results=right.container()
 with  controls:
     st.title("JPBrain")
     st.markdown("Aplikacja do klasyfikacji zdjęć MRI/CT pod względem rodzaju występujących nowotworów")
-    selected=st.selectbox('Wybierz model:',get_models())  
+    selected=st.selectbox('Wybierz model:',get_models(),index=None,placeholder="Wybierz model")  
     uploaded=st.file_uploader('Wybierz plik z obrazem mózgu:')
     model=None
     try:
-        model=get_model(selected)
+        if selected:
+            model=get_model(selected)
     except ValueError:
         st.warning('Model nieobsługiwany')
     if uploaded and model:

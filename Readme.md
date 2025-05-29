@@ -8,8 +8,17 @@ It is a project of ML model and simple application to brain tumor classification
 ```
 pip install tensorflow kagglehub numpy pandas matplotlib scikit-learn seaborn opencv-python streamlit
 ```
-2. Jupyter  Nootbook
+2. Jupyter  Notebook
 
+Installation:
+```
+pip install notebook
+```
+Run:
+
+```
+jupyter notebook
+```
 ### Local dataset installation:
 
 Installation prepared for linux system with python
